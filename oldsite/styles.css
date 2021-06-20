@@ -1,0 +1,150 @@
+.arrondi{
+    padding: 30px;
+    margin-left: 1%;
+    margin-right: 40%;
+    border: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+#wrap {
+width: 1000px;
+position: absolute;
+left: 50%;
+margin-left: -500px;
+}
+
+
+#test2 {
+
+  margin:0 25% 0 25%;
+  width:50%;
+    /*
+  margin:0 auto;
+  */
+}
+
+/* pour les button !!! */
+.arrondi2 {
+    border-radius: 50px;
+    border-style: groove;
+}
+
+/* il donne espace horisontal enter les objet */
+
+.arrondi3 {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+
+
+#methode3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#par {
+  width: 100%;
+}
+
+
+.centre {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+h1, h2, h3, h4 {
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+
+}
+
+
+
+header {
+    font-size: larger;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+body {
+    background-image: url("bg/bg.jpg");
+    color: cornsilk;
+    padding: 40px;
+}
+
+.samurai {
+    background-image: url("bg/bg3.png");
+    background-size: 33%;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+    font-style: italic;
+
+}
+
+.buttons_in {
+    border-style: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    background-color: whitesmoke;
+}
+
+.buttons_out {
+    border-style: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    background-color: violet;
+}
+
+.buttons_out:hover{
+    background-color: darkslategrey;
+    color: cornsilk;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+p {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+
+footer {
+    padding-top: 14%;
+}
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:0px auto;
+    width: 90%;
+}
+
+.cont-item {
+    margin: 0 auto;
+}

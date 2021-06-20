@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #ECEFF4;
+    overflow-x: hidden;
+}
+
+.titre {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 6px;
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 600;
+}
+
+header {
+    background-color: black;
+    color: blanchedalmond;
+    align-self: center;
+    text-align: center;
+    font-size: 20pt;
+    border-radius: 20pt;
+    width: 90vw;
+    height: 15vh;
+}
+
+.cont {
+    display: flex;
+}
+
+.mettreENcentre {
+    margin: auto;
+    text-align: center;
+}
+
+input,
+textarea {
+    outline: none;
+    padding: 10px;
+    border-radius: 18px;
+    border: 1pt black solid;
+    text-align: center;
+    margin: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-self: center;
+    width: 150pt;
+}
+
+
+input[type="button"]:hover {
+    background-color: white;
+    width: 155pt;
+    cursor: pointer;
+    border-color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+.pallet {
+    box-shadow: 2px 2px 12px black;
+    border-radius: 20pt;
+    border: 0;
+    width: fit-content;
+    padding: 20px;
+}
+
+.darkmodebutton {
+    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline;
+    margin: 15px;
+    width: fit-content;
+    border: 0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+
+.darkmodebutton:hover {
+    background-color: green;
+}
+
+.dark-mode {
+    background-color: #2E3440;
+    color: white;
+}
+
+/* button effects */
+
+.buttonhover {
+    font-weight: normal;
+}
+
+.buttonhover:hover {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.calc-ecran {
+    width: 252px;
+    min-height: 100px;
+    height: auto;
+    border: 1px solid white;
+    text-align: end;
+    padding: 3px;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    word-wrap: break-word;
+    cursor: not-allowed;
+}
+
+.cle {
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    grid-template-rows: repeat(5, 65px);
+    justify-content: center;
+    align-content: center;
+}
+
+.cle>button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    outline: none;
+}
+
+.cle>button:hover {
+    background-color: white;
+}
+
+.ac {
+    grid-column: span 3;
+}
+
+.espaceArticle {
+    padding: 50px;
+    margin: auto;
+}
+
+
+.espaceArticle>p {
+    text-align: left;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.espaceArticle>button {
+    display: inline;
+}
+
+.espaceArticle>button:hover {
+    box-shadow: 5px 5px 21px black;
+}
+
+
+.espaceArticle>h1,
+h2,
+h3,
+h4,
+h5 {
+    text-shadow: 1px black;
+}
+
+
+.img-fit {
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px black;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 5px 20px;
+    margin: 10px;
+    color: #0B5AA2;
+    font-size: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.element-list {
+    padding-top: 5px;
+    width: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 5px;
+    margin: auto;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.element-list>span {
+    text-align: center;
+}
+
+.element-list:hover {
+    border-radius: 18px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.circle {
+    background-color: cadetblue;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.ecran2 {
+    width: 120px;
+    height: 80px;
+    margin: auto;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: 40%;
+    bottom: unset;
+}
+
+
+
+/* tool tips */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+/* ----------------------styles de note-----------------------------*/
+
+.note_button0 {
+    border: 0px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    width: 40px;
+    display: inline;
+    cursor: pointer;
+}
+
+.note_button1 {
+    width: fit-content;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    outline: none;
+}
+
+.note_button1:hover {
+    background-color: inherit;
+    cursor: pointer;
+
+}
+
+.ob {
+    font-style: italic;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.st {
+    text-decoration: line-through;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.del_c {
+    display: inline;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.note {
+    height: auto;
+    min-height: 100px;
+    font-size: large;
+    font-family: 'Goudy Bookletter 1911', serif;
+    overflow: hidden;
+}
+
+
+/*------------------------calc2----------------------*/
+
+.ecran3 {
+    height: auto;
+    min-height: 70px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+
+}

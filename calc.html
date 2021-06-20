@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#2E3440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="st.css">
+    <script src="https://kit.fontawesome.com/5d5f200693.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="java.js" defer></script>
+    <button class="darkmodebutton dark-mode" onclick="myFunction()"><i class="fas fa-moon"></i></button>
+    <div class="pallet mettreENcentre">
+        <!--<div class="calc-ecran" id="calc-ecran"></div>-->
+        <input type="text" class="calc-ecran" id="calc-ecran" readonly>
+        <div class="cle">
+            <button value="1" onclick="une()">1</button>
+            <button value="2" onclick="deux()">2</button>
+            <button value="3" onclick="trois()">3</button>
+            <button value="+" onclick="somme()">+</button>
+            <button value="4" onclick="quatre()">4</button>
+            <button value="5" onclick="cinq()">5</button>
+            <button value="6" onclick="six()">6</button>
+            <button value="-" onclick="moins()">-</button>
+            <button value="7" onclick="sept()">7</button>
+            <button value="8" onclick="huit()">8</button>
+            <button value="9" onclick="neuf()">9</button>
+            <button value="*" onclick="fois()">*</button>
+            <button value="0" onclick="zero()">0</button>
+            <button value="/" onclick="div()">÷</button>
+            <button value="." onclick="point()">.</button>
+            <button onclick="">C</button>
+            <button class="ac" onclick="eq()">=</button>
+            <button onclick="Ac()">AC</button>
+        </div>
+    </div>
+</body>
+
+</html>

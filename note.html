@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#2E3440" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>note</title>
+    <link rel="stylesheet" href="st.css">
+    <script src="java.js" defer></script>
+    <script src="https://kit.fontawesome.com/5d5f200693.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <button class="darkmodebutton dark-mode" onclick="myFunction()"><i class="fas fa-moon"></i></button>
+    <div class="mettreENcentre pallet">
+        <div class="note_button0" onclick="ob()"><i>I</i></div>
+        <div class="note_button0" onclick="b()"><b>B</b></div>
+        <div class="note_button0" onclick="u()"><u>U</u></div>
+        <div class="note_button0" onclick="st()"><s>S</s></div>
+        <textarea id="note" class="note" cols="30" rows="10"></textarea>
+        <button class="note_button1" class="del_c" onclick="del1()">C</button>
+        <button class="note_button1" class="del_c" onclick="document.getElementById('note').value=''">AC</button>
+        <Button class="note_button1">telecharger ▼</Button>
+        <input type="button" value="page d'accueil" onclick="location.replace('index.html')">
+    </div>
+</body>
+
+</html>
